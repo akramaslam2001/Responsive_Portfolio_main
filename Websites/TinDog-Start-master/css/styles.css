@@ -1,0 +1,206 @@
+body{
+    font-family: "Montserrat",sans-serif;
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Montserrat-bold', sans-serif; 
+}
+
+h3{
+    font-size: 1.8rem;
+    font-weight: 750;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.container-fluid
+{
+    padding: 2% 10% 10%;
+  /* padding: top left-right bottom */
+}
+
+#title
+{
+ 
+  text-align: left;
+}
+
+.nav-link
+{
+    margin: 0 20px;
+    font-size: large;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+.navbar-brand
+{
+    font-size: 40px;
+    font-weight:bold;
+    font-family: "Ubuntu";
+}
+
+.big-heading
+    {
+    margin-top: 80px;
+    margin-bottom: 30px;  
+    color: white; 
+ 
+    font-size: 3.5rem;
+    line-height: 1.5; 
+    font-weight: 900;
+}
+
+.rotate
+{
+    margin-top: 60px;
+    transform: rotate(25deg);
+}
+
+.download-button
+{  margin: 5% 3% 5% 0; }
+
+.title-img
+{   width: 60%; 
+    position: absolute;
+    right: 30%;
+  }
+
+
+/* Feature's Section */
+
+#features
+{
+     /*Here, we preffer paddin over margin because of position:absolute...uncoment tha margin tag and see what happepns :)  */
+     /* margin: 7% 25%;  */
+     padding: 7% 25%;
+    background-color: white;
+     position: relative;
+     /* z-index: 1; */
+     /* We commented the z-index here because this section goes ahead in the STACKING ORDER already, so */
+     /* No need to use z-index :) */
+ }
+
+ @media (max-width: 1022px)
+ {
+     #title{
+         text-align: center;
+     }
+     .title-img{
+         position: static;
+         transform: rotate(0);
+         text-align: center;
+     }
+     .navbar-nav{
+         text-align: right;
+     }
+     /*  NO NEED FOR THIS , Hence commented
+     #features{
+         position: static;
+     } */  
+ 
+ }
+
+.feature-box
+{ 
+    padding:  5%;   
+    font-weight:500; }
+
+p  {   color: #8f8f8f; }
+
+.feature-title{
+    font-size: 1.8rem;
+    font-weight: 750;
+}
+
+.icon
+{    color: #ef8172;
+    margin-bottom: 1rem;
+    /* line-height: 1rem; */
+} 
+
+.icon:hover
+{  color: #ff4c68;  } 
+
+/* Testimonials Section */
+#testimonials
+{
+    padding: 5% 15%;
+  
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.testimonial-image
+{
+   width: 10%;
+   border-radius: 100%;
+   margin: 30px;
+}
+
+#press
+{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    
+}
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item
+{
+    padding: 7% 12%;
+}
+
+
+/* PRICING SECTION */
+
+#pricing
+{
+    padding: 100px;  
+}
+
+.pricing-column
+{
+    padding: 3% 2%;
+}
+
+.price-text,.testimonial-text
+{
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+#cta{
+   padding: 10%;
+}
+
+.last-buttons{
+    margin: 3% 2%;
+}
+
+#footer{
+    background-color: #fff;
+    padding: 3%;
+  
+}
+.copyright{
+    font-size: large;
+     color: gray;
+     font-weight: 500;   
+}

@@ -1,0 +1,170 @@
+/* body{
+    cursor: url("/images/cursorlol.png"),default;
+} */
+.body-img{
+    z-index: -2;
+    /* height: 800px; */
+    height: 150%;
+    width: 100%;
+     position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.again01{top: 700px;}
+.again02{top: 1500px;}
+.again03{top: 2300px;}
+.again04{top: 3100px;}
+.again05{top: 3700px;}
+.again06{top: 4300px;}
+.again07{top: 5000px;}
+
+.bar{
+    font-size: 1.3rem;
+}
+
+.lol{
+    text-align: center;
+}
+
+.Naam{
+    /* margin-left: 150px; */
+    text-align: center;
+    margin-top: 12%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 2800;
+    /* z-index: 1; */
+    font-size: 3.5rem;
+    /* top: 200px; */
+}
+.sub{
+    margin-top: 0px;
+    font-size: 2rem;
+}
+.img{
+    margin-top: 30px;
+    text-align: center;
+  height: 230px;
+  width: 230px;
+}
+  .info{
+      margin-top: 100px;
+  }
+
+  .Hacker-img{
+      margin-left: 15%;
+      margin-right: 15%;
+      height: 200px;
+      width: 200px;
+  }
+  .Hacker-heading{
+     font-family: 'Acme',sans-serif;
+     text-align: left;
+  }
+.Hacker-para{
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+    text-align: left;
+}
+.row{
+    margin-bottom: 100px;
+}
+.Education-list{
+ list-style: none;
+}
+.Education-list::before{
+    margin-right: 5%;
+  content: "\00BB";
+  list-style-position: inside;
+ font-size: 50px;
+ color: white;
+ text-align: left;
+}
+.lift-up{
+    text-align: right;
+}
+.Web-link{
+    color: grey;
+}
+.Web-link:hover{
+    color: white;
+    text-decoration: none;
+}
+.contact-me{
+    text-align: center;
+    margin-top: 20px;
+}
+.copyright{
+    position: relative;
+   top: 80px;
+    /* z-index: 1; */
+    color: white;
+    font-size: 16px;
+    text-align: center;
+}
+
+.web-img{
+    height: 80px;
+    width: 80px;
+    position: relative;
+    z-index: -1;
+    margin: 3%;
+    /* padding-bottom: 50px; */
+}
+
+.tw{
+    height: 100%;
+    width: 100%;
+ position: relative;
+ z-index: 1;
+
+}
+.linkedin{
+    height: 100%;
+    width: 100%;
+ position: relative;
+ z-index: 1;
+
+}
+.footer{
+    text-align: center;
+}
+@media (max-width: 900px) {
+    .SNaam{margin-top: 20%;}
+    .sub,.Naam{
+        font-size: 1.4rem;
+        font-weight: 150;
+    }
+    .img{
+        height: 150px;
+        width: 150px;
+    }
+    .justify-content-center{
+        text-align: center;
+    }
+    .Hacker-heading{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .Hacker-para{
+        text-align: center;
+        font-size: 1.3rem;
+    }
+    .Education-list::before{
+        font-size: 30px;
+    }
+    .copyright{
+        font-size: 0.8rem;
+        position: relative;
+        bottom: 80px;
+    }
+    .web-img{
+        height: 50px;
+        width: 50px;
+    }
+  }
